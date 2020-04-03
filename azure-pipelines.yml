@@ -1,0 +1,17 @@
+# Node.js
+# Build a general Node.js project with npm.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: PushToHeroku@0
+  inputs:
+    ApiKey: '3d9eaf42-e07f-4954-b4ba-1d7eba2470fe'
+    AppName: 'al-backend-monolithic'
+    PushRoot: ''
