@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.4280" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-01T15:48:38" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Reviews" timestamp="2020-04-01T15:48:38" tests="5" file="D:\Development\Afstuderen-light\AfstuderenLight_Backend_Microservices_Review\test\review.js" time="0.4280" failures="0">
+    <testcase name="Reviews should POST a single review" time="0.3340" classname="should POST a single review">
+    </testcase>
+    <testcase name="Reviews should GET all reviews" time="0.0270" classname="should GET all reviews">
+    </testcase>
+    <testcase name="Reviews should GET a single review" time="0.0140" classname="should GET a single review">
+    </testcase>
+    <testcase name="Reviews should PUT a single review" time="0.0270" classname="should PUT a single review">
+    </testcase>
+    <testcase name="Reviews should DELETE a single review" time="0.0260" classname="should DELETE a single review">
+    </testcase>
+  </testsuite>
+</testsuites>
